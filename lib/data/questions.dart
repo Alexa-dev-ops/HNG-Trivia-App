@@ -1,0 +1,98 @@
+import  '../models/question.dart';
+final List<Question> techTriviaQuestions = [
+  Question(
+    id: '1',
+    question: 'What does the acronym "CPU" stand for?',
+    options: [
+      'Central Processing Unit',
+      'Computer Personal Unit',
+      'Central Processor Unit',
+      'Central Personal Unit',
+    ],
+    correctAnswer: 0,
+    category: 'Computer Processing Unit',
+  ),
+  Question(
+    id: '2',
+    question: 'Which of these is a programming language?',
+    options: ['Python', 'Java', 'JavaScript', 'All of the above'],
+    correctAnswer: 3,
+    category: 'Python',
+  ),
+  Question(
+    id: '3',
+    question: 'What does "SaaS" stand for?',
+    options: [
+      'Software as a Service',
+      'System as a Service',
+      'Security as a Service',
+      'Server as a Service',
+    ],
+    correctAnswer: 0,
+    category: 'Software as a Service',
+  ),
+  Question(
+    id: '4',
+    question: 'Which company developed React?',
+    options: ['Google', 'Facebook', 'Microsoft', 'Apple'],
+    correctAnswer: 1,
+    category: 'React',
+  ),
+  Question(
+    id: '5',
+    question: 'What does "HTML" stand for?',
+    options: [
+      'Hyper Text Markup Language',
+      'High Tech Modern Language',
+      'Home Tool Markup Language',
+      'Hyperlinks Text Markup Language',
+    ],
+    correctAnswer: 0,
+    category: 'HTML',
+  ),
+  Question(
+    id: '6',
+    question: 'Which is NOT a JavaScript framework?',
+    options: ['Angular', 'Vue', 'Django', 'React'],
+    correctAnswer: 2,
+    category: 'JavaScript',
+  ),
+  Question(
+    id: '7',
+    question: 'What is Git primarily used for?',
+    options: [
+      'Database management',
+      'Version control',
+      'Web hosting',
+      'Code compilation',
+    ],
+    correctAnswer: 1,
+    category: 'Git',
+  ),
+  Question(
+    id: '8',
+    question: 'Which language is used for iOS development?',
+    options: ['Java', 'Kotlin', 'Swift', 'C#'],
+    correctAnswer: 2,
+    category: 'Swift',
+  ),
+  Question(
+    id: '9',
+    question: 'What does "API" stand for?',
+    options: [
+      'Application Programming Interface',
+      'Advanced Programming Interface',
+      'Application Process Integration',
+      'Automated Programming Interface',
+    ],
+    correctAnswer: 0,
+    category: 'API',
+  ),
+  Question(
+    id: '10',
+    question: 'Which database is NoSQL?',
+    options: ['MySQL', 'PostgreSQL', 'MongoDB', 'Oracle'],
+    correctAnswer: 2,
+    category: 'MongoDB',
+  ),
+];
